@@ -1,7 +1,7 @@
 class Student {
 
-  id: number;
-  name:string;
+ private id: number;
+protected name:string;
 constructor(){}
   display():void {
       console.log("Student ID is: "+this.id)
